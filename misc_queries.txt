@@ -1,0 +1,138 @@
+/******* Initial Table Create ******/
+
+CREATE TABLE hc_cost (
+year_id int,
+age_group int,
+age_group_name varchar(255),
+gender_id int,
+gender varchar(20),
+function varchar(4),
+type_of_care varchar(255),
+acause varchar(25),
+cause_name varchar(255),
+cause_id int,
+mean_all float,
+lower_all float,
+upper_all float,
+mean_public float,
+lower_public float,
+upper_public float,
+mean_private float,
+lower_private float,
+upper_private float,
+mean_oop float,
+lower_oop float,
+upper_oop float
+)
+
+
+/******** Narrowed down to the fields and rows we care about *******/
+
+SELECT	year_id,
+				age_group_name,
+				gender,
+				type_of_care,
+				cause_name,
+				mean_all,
+				mean_public,
+				mean_private,
+				mean_oop
+				
+FROM hc_cost
+
+WHERE			gender in ('Male','Female')
+			AND	type_of_care in ('Ambulatory care','Inpatient care','Prescribed pharmaceutical care','Emergency department care')
+			AND	cause_name in ('Diabetes, urogenital, blood, and endocrine diseases',
+			                   'Injuries',
+			                   'Mental and behavioral disorders',
+			                   'Neoplasms',
+			                   'Cardiovascular diseases',
+			                   'Well care',
+			                   'Musculoskeletal disorders',
+			                   'Chronic respiratory diseases')
+
+
+/****** Create view for each category *******/
+Create view v_emergency AS
+select 	year_id,
+		age_range,
+		gender,
+		type_of_care,
+		cause_name,
+		avg(mean_all) as mean_all,
+		avg(mean_public) as mean_public,
+		avg(mean_private) as mean_private,
+		avg(mean_oop) as mean_oop
+from hc_cost1
+where type_of_care = 'Emergency'
+group by year_id,
+		 age_range,
+		 gender,
+		 type_of_care,
+		 cause_name
+order by year_id,
+		 age_range,
+		 gender,
+		 type_of_care,
+		 cause_name
+		 
+/************ View for summary timeline of causes *********/
+
+Create view v_causes AS
+select 	year_id,
+				cause_name,
+				avg(mean_all) as mean_all,
+
+from hc_cost1
+
+group by year_id,
+		 		 cause_name
+order by year_id,
+		     cause_name
+		 
+/********** View of age range by private and public, year 2016 *********/
+
+Create view v_age_group_2016 AS
+SELECT 	year_id,
+				age_range,
+ 				avg(mean_all) AS avg_cost
+FROM hc_cost1
+WHERE 	year_id = '2016'
+GROUP BY year_id, age_range
+ORDER BY age_range
+
+/****** Gender breakdown by private and public, year 2016 ********/
+
+Create view v_gender_2016 AS
+SELECT 	year_id,
+				gender,
+ 				avg(mean_all) AS avg_cost
+FROM hc_cost1
+WHERE 	year_id = '2016'
+GROUP BY year_id, gender
+ORDER BY gender
+
+/****** Gender by cause by cause_name by private and public 2016  *******/
+
+CREATE view gender_by_cause_2016 AS
+SELECT 	year_id,
+		    cause_name,
+	 	    gender,
+ 		    avg(mean_all) AS avg_cost
+FROM hc_cost1
+WHERE 	year_id = '2016'
+GROUP BY year_id, gender, cause_name
+ORDER BY gender
+
+/***** age group by cause  ******/
+
+CREATE view age_group_by_cause_2016 AS
+SELECT 	year_id,
+		    cause_name,
+		    age_range,
+ 		    avg(mean_all) AS avg_cost
+FROM hc_cost1
+WHERE 	year_id = '2016'
+GROUP BY year_id, age_range, cause_name
+ORDER BY cause_name, age_range
+

@@ -1,0 +1,97 @@
+.fig{
+    width: 160px;
+    height: 160px;
+    
+    
+    }
+    .main_fig{
+    
+    width: 380px;
+    height: 380px;
+    
+    }    
+    body{
+    
+    background-color: white;
+    
+    }
+    .table{
+    
+    width: 60px;
+    height: 60px;  
+     
+    }
+    
+    .summary{
+    
+    font-size: medium; 
+      
+    }
+    
+    .fig1{
+    width: 380px;
+    height: 380px;
+    padding-bottom: 20px;
+    
+    }  
+    
+    .fig2{
+    width: 380px;
+    height: 380px;
+    padding-bottom: 20px;
+    
+    } 
+    
+    .fig3{
+    width: 380px;
+    height: 380px;
+    padding-bottom: 20px; 
+       
+    }  
+    
+    .fig4{
+    width: 380px;
+    height: 380px;
+    padding-bottom: 20px;
+    
+    }  
+    
+    .figA{
+    
+    width: 280px;
+    height: 280px; 
+    padding: 20px 30px;
+    }
+    
+    h1 {
+        color:black;
+    }
+    h2 {
+        color:black;
+    }
+    
+    h3 {
+        color: black;
+    }
+    
+    .dropdown-toggle {
+    
+        color: black;
+        font-size: 17px;
+    }
+    
+    .navbar-brand {
+        color: black;
+        font-size: 18px;
+        float: left;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
