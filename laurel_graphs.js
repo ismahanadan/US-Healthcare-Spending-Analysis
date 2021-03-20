@@ -125,7 +125,7 @@ function init() {
         }
     };
   
-    var CHART = d3.selectAll("#plot").node();
+    var CHART = d3.selectAll("#Home").node();
   
     Plotly.newPlot(CHART, data, layout);
 
@@ -136,7 +136,7 @@ function init() {
           type: 'bar'
         }
       ];
-        var CHART = d3.selectAll("#plot").node();
+        var CHART = d3.selectAll("#Home").node();
       
         Plotly.newPlot('Cost by Age Group', age_data);
       }

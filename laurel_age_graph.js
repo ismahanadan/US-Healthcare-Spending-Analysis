@@ -1,18 +1,36 @@
 // Initializes the page with a default plot
 function init() {
     
-var data = [
+var age_data = [
     {
       x: ['Under 15', '15-29', '30-39', '40-54', '55-69', '70-79', '80+'],
       y: [332.84, 765.28, , 1129.42, 1532.48, 2388.16, 1502.67, 951.51],
       type: 'bar'
     }
   ];
-    var CHART = d3.selectAll("#plot").node();
   
-    Plotly.newPlot('Cost by Age Group', data);
+    Plotly.newPlot("Public vs. Private Expenditure by Age Group", age_data);
   }
   
+  var trace1 = {
+    x: ['Under 15', '15-29', '30-39', '40-54', '55-69', '70-79', '80+'],
+    y: [332.84, 765.28, , 1129.42, 1532.48, 2388.16, 1502.67, 951.51],
+    name: 'Public',
+    type: 'bar'
+  };
+  
+  var trace2 = {
+    x: ['Under 15', '15-29', '30-39', '40-54', '55-69', '70-79', '80+'],
+    y: [12, 18, 29],
+    name: 'Private',
+    type: 'bar'
+  };
+  
+  var data = [trace1, trace2];
+  
+  var layout = {barmode: 'group'};
+  
+  Plotly.newPlot('Public vs. Private Expenditure by Age Group', data, layout);
 //   // Call updatePlotly() when a change takes place to the DOM
 //   d3.selectAll("body").on("change", updatePlotly);
   
