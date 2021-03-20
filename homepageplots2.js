@@ -129,18 +129,6 @@ function init() {
   
     Plotly.newPlot(CHART, data, layout);
 
-    var age_data = [
-        {
-          x: ['Under 15', '15-29', '30-39', '40-54', '55-69', '70-79', '80+'],
-          y: [332.84, 765.28, , 1129.42, 1532.48, 2388.16, 1502.67, 951.51],
-          type: 'bar'
-        }
-      ];
-        var CHART = d3.selectAll("#Home").node();
-      
-        Plotly.newPlot('Cost by Age Group', age_data);
-      }
-  }
   
   // Call updatePlotly() when a change takes place to the DOM
   d3.selectAll("body").on("change", updatePlotly);
