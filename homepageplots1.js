@@ -20,3 +20,5 @@ function init() {
     var layout = {barmode: 'group'};
     
     Plotly.newPlot('Mean Public and Private Spending 1996-2016, data, layout);
+
+init();
