@@ -1,3 +1,6 @@
+// I'm not sure if within the traces I need to refer to cardiovascular.year_id and cardiovascular.mean_all
+// instead of what I have currently
+
 // Initializes the page with a default plot
 function init() {
 
@@ -120,13 +123,11 @@ function init() {
       var type = data.cause_name;
       var year = data.year_id;
       var amount_spent = data.mean_all;
+      
     //   var dropdownMenu = d3.select('#selDataset');
     
       // Grab values from the response json object to build the plots
-    //   var name = data.dataset.name;
-    //   var stock = data.dataset.dataset_code;
-    //   var startDate = data.dataset.start_date;
-    //   var endDate = data.dataset.end_date;
+    
       
       var startDate = data.year_id.map(x => x[0])
       var endDate = data.year_id.map(x=> x[168])
@@ -137,6 +138,8 @@ function init() {
       var musculoskeletal = data.cause_name.map(x => x=="Musculoskeletal disorders");
       var neoplasms = data.cause_name.map(x => x=="Neoplasms");
       var wellcare = data.cause_name.map(x => x=="Well care");
+    //   var public = public_data
+    //   var private = private_data
 
        // Initialize x and y arrays
       var x = [];
