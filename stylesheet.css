@@ -68,10 +68,12 @@
     }
     h2 {
         color:black;
+        padding: 40px 40px;
     }
     
     h3 {
         color: black;
+        padding: 40px 40px;
     }
     
     .dropdown-toggle {
@@ -88,6 +90,9 @@
        
     }
     
+    .row3-2 {
+        padding: 160px;
+    }
     
     
     
