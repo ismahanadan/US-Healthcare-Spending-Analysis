@@ -16,8 +16,8 @@ function init() {
       // Grab values from the response json object to build the plots
     
       
-      var startDate = data.year_id.map(x => x[0])
-      var endDate = data.year_id.map(x=> x[168])
+      var startDate = data.year_id.map(x => x[0]);
+      var endDate = data.year_id.map(x=> x[168]);
       var cardiovascular = data.cause_name.map(x => x=="Cardiovascular");
       var respiratory = data.cause_name.map(x => x=="Chronic respiratory diseases");
       var diabetes = data.cause_name.map(x => x=="Diabetes, urogenital, blood, and endocrine diseases");
@@ -110,8 +110,8 @@ function init() {
     };
 
 
-    var data = {[cardio_trace], [respiratory_trace], [diabetes_trace], [cardio_trace], [injuries_trace], 
-        [musculoskeletal_trace], [neoplasms_trace], [wellcare_trace]}
+    var data3 = {[cardio_trace], [respiratory_trace], [diabetes_trace], [cardio_trace], [injuries_trace], 
+        [musculoskeletal_trace], [neoplasms_trace], [wellcare_trace]};
 
     var layout = {
         title: `Healthcare Costs 1996-2016`,
@@ -127,7 +127,7 @@ function init() {
   
     var CHART = d3.selectAll("#row").node();
   
-    Plotly.newPlot(CHART, data, layout);
+    Plotly.newPlot(CHART, data3, layout);
 
   
   // Call updatePlotly() when a change takes place to the DOM
@@ -157,8 +157,8 @@ function init() {
       // Grab values from the response json object to build the plots
     
       
-      var startDate = data.year_id.map(x => x[0])
-      var endDate = data.year_id.map(x=> x[168])
+      var startDate = data.year_id.map(x => x[0]);
+      var endDate = data.year_id.map(x=> x[168]);
       var cardiovascular = data.cause_name.map(x => x=="Cardiovascular");
       var respiratory = data.cause_name.map(x => x=="Chronic respiratory diseases");
       var diabetes = data.cause_name.map(x => x=="Diabetes, urogenital, blood, and endocrine diseases");
@@ -187,7 +187,7 @@ function init() {
                 }
             };
         
-            var data = [cardio_trace];
+            var data4 = [cardio_trace];
         
             var layout = {
                 title: `Cardiovascular Care Costs 1996-2016`,
@@ -215,7 +215,7 @@ function init() {
                 }
             };
         
-            var data = [respiratory_trace];
+            var data4 = [respiratory_trace];
         
             var layout = {
                 title: `Chronic Respiratory Care Costs 1996-2016`,
@@ -243,7 +243,7 @@ function init() {
                 }
             };
         
-            var data = [diabetes_trace];
+            var data4 = [diabetes_trace];
         
             var layout = {
                 title: `Diabetes, Urogenital, Blood, and Endocrine Care Costs 1996-2016`,
@@ -271,7 +271,7 @@ function init() {
                 }
             };
         
-            var data = [injuries_trace];
+            var data4 = [injuries_trace];
         
             var layout = {
                 title: `Injuries Care Costs 1996-2016`,
@@ -299,7 +299,7 @@ function init() {
                 }
             };
         
-            var data = [musculoskeletal_trace];
+            var data4 = [musculoskeletal_trace];
         
             var layout = {
                 title: `Musculoskeletal Care Costs 1996-2016`,
@@ -327,7 +327,7 @@ function init() {
                 }
             };
         
-            var data = [neoplasms_trace];
+            var data4 = [neoplasms_trace];
         
             var layout = {
                 title: `Neoplasm Care Costs 1996-2016`,
@@ -355,7 +355,7 @@ function init() {
                 }
             };
         
-            var data = [neoplasms_trace];
+            var data4 = [neoplasms_trace];
         
             var layout = {
                 title: `Well Care Costs 1996-2016`,
@@ -376,7 +376,7 @@ function init() {
   
       
   
-      Plotly.newPlot(CHART, data, layout);
+      Plotly.newPlot(CHART, data4, layout);
   
     });
   }
