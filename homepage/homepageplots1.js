@@ -1,4 +1,4 @@
-function init() {
+
     
   
     var public = {
@@ -19,6 +19,6 @@ function init() {
     
     var layout = {barmode: 'group'};
     
-    Plotly.newPlot('row', layout);
+    Plotly.newPlot('plot', data, layout);
 
-init();
+

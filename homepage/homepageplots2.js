@@ -125,13 +125,13 @@ function init() {
         }
     };
   
-    var CHART = d3.selectAll("#Home").node();
+    var CHART = d3.selectAll("plot").node();
   
     Plotly.newPlot(CHART, data, layout);
 
   
   // Call updatePlotly() when a change takes place to the DOM
-  d3.selectAll("body").on("change", updatePlotly);
+  d3.selectAll("plot").on("change", updatePlotly);
   
   // This function is called when a dropdown menu item is selected
   function updatePlotly() {
@@ -140,7 +140,9 @@ function init() {
     // Assign the value of the dropdown menu option to a variable
     var dataset = dropdownMenu.node().value;
   
-    var CHART = d3.selectAll("#plot").node();
+    var CHART = d3.selectAll("plot").node()
+    //var CHART = d3.selectAll("#row").node();
+  
   
     
   
