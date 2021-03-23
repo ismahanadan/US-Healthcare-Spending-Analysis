@@ -110,8 +110,7 @@ function init() {
     };
 
 
-    var data3 = {[cardio_trace], [respiratory_trace], [diabetes_trace], [cardio_trace], [injuries_trace], 
-        [musculoskeletal_trace], [neoplasms_trace], [wellcare_trace]};
+    var data3 = [cardio_trace];
 
     var layout = {
         title: `Healthcare Costs 1996-2016`,
@@ -151,6 +150,12 @@ function init() {
       var type = data.cause_name;
       var year = data.year_id;
       var amount_spent = data.mean_all;
+      var dropdownMenu = d3.select("#selDataset");
+  // Assign the value of the dropdown menu option to a variable
+    var dataset = dropdownMenu.node().value;
+
+    var CHART = d3.selectAll("#row").node();
+
       
     //   var dropdownMenu = d3.select('#selDataset');
     
@@ -379,10 +384,9 @@ function init() {
       Plotly.newPlot(CHART, data4, layout);
   
     });
-  }
+  };
   
   // Add event listener for submit button
-  d3.select("#submit").on("click", handleSubmit);
-  
+//   d3.select("#submit").on("click", handleSubmit);
 
-  // check index on that example and see where they put dataset 123
+init();
