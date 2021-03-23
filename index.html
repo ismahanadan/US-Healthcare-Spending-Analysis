@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
     <title>HealthCare Spending analysis</title>
 
   
@@ -58,8 +61,12 @@
       <div class="row">
         <div class="col-md-8">
           <h2>HealthCare Spending Analysis</h2>
-          <script src="homepageplots1.js"></script>Mean Public and Private Spending 1996-2016</a>
-          <script src="homepageplots2.js"></script>Spending based on Condition</a>
+          <body>
+            <div id="plot"></div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+            <!-- <script src="data/data.json"></script> -->
+            <script src="homepageplots1.js"></script>Mean Public and Private Spending 1996-2016</a>
+            <script src="homepageplots2.js"></script>Spending based on Condition</a>
             <select id="selDataset">
               <option value="Cardiovascular">Cardiovascular</option>
               <option value="Chronic respiratory diseases">Chronic respiratory diseases</option>
@@ -69,6 +76,8 @@
               <option value="Neoplasms">Neoplasms</option>
               <option value="Well care">Well Care</option>
             </select>
+          </body>
+          
         
         
         </div>
