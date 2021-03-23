@@ -3,10 +3,17 @@
 
 // Initializes the page with a default plot
 function init() {
-    d3.json("Resources/causes_by_year.json").then(sampleData => {
+
+    d3.json("Resources/causes_by_year.json").then(function(data) {
+        console.log(data);
+      });
+      
+      // Promise Pending
+      
+    // d3.json("Resources/causes_by_year.json").then(sampleData => {
 
         //data, names, dropdown menu
-      var data = sampleData;
+    //   var data = data;
       var type = data.cause_name;
       var year = data.year_id;
       var amount_spent = data.mean_all;
@@ -128,6 +135,10 @@ function init() {
   
     Plotly.newPlot(CHART, data3, layout);
 
+    // })
+    const dataPromise = d3.json("Resources/causes_by_year.json");
+      console.log("Data Promise: ", dataPromise);
+};
   
   // Call updatePlotly() when a change takes place to the DOM
   d3.selectAll("body").on("change", updatePlotly);
