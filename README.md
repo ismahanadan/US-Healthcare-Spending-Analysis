@@ -6,12 +6,15 @@ The goal of this project is to extract, process and create an interactive dashbo
 
 #Questions:
 
-1.	What is the average total spending per year for each condition?
-2.	What is the average total spending per year for the two payers?
-3.	For each care type:
-a.	What is the total spending on care (ex. Ambulatory) for men and women in 2016?
-b.	What is the total public and private insurance spending on care (ex. Ambulatory) in 2016?
-c.	What is the total spending on care (ex. Ambulatory) for each age group?
+1.	What is the mean spending per year for each condition?
+
+3.	What is the mean spending per year for private and public payers?
+
+5.	For Ambulatory, Emergency and Prescription Care:
+a.	What is the mean spending on care (ex. Ambulatory) by age in 2016?
+
+4.	What is the mean public and privatespending on care (ex. Ambulatory) in 2016 by gender?
+
 
 
 
@@ -20,6 +23,8 @@ c.	What is the total spending on care (ex. Ambulatory) for each age group?
 http://ghdx.healthdata.org/record/ihme-data/united-states-health-care-spending-payer-and-health-condition-1996-2016
 
 https://github.com/ismahanadan/Project3/tree/main/Resources
+
+
 
 
 
