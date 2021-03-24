@@ -20,22 +20,22 @@
         </div>
         <ul class="nav navbar-nav">
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="Ambulatory.html">Ambulatory Care</a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="gender_spending/gender_spending.html">Spending by Gender</a>
             <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="gender_spending/gender_spending.html">Gender Spending</a></li>
-              <li><a href="Timeseries1.html">Timeseries</a></li>
-              <li><a href="chart_htmls/Age.html">Spending by Age Group</a></li>
+              <!-- <li><a href="Timeseries1.html">Timeseries</a></li>
+              <li><a href="chart_htmls/Age.html">Spending by Age Group</a></li> -->
             </ul>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="Emergency.html">Emergency Care</a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="chart_htmls/Age.html">Spending by Age</a>
               <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="gender_spending/gender_spending.html">Gender Spending</a></li>
-                <li><a href="Timeseries1.html">Timeseries</a></li>
-                <li><a href="chart_htmls/Age1.html">Spending by Age Group</a></li>
+                <li><a href="chart_htmls/Age.html">Emergency Care</a></li>
+                <li><a href="chart_htmls/Age1.html">Ambulatory Care</a></li>
+                <li><a href="chart_htmls/Age3.html">Prescription</a></li>
               </ul> 
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="Inpatient.html">Inpatient Care</a>
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -51,13 +51,13 @@
                     <li><a href="Timeseries3.html">Timeseries</a></li>
                     <li><a href="chart_htmls/Age3.html">Spending by Age Group</a></li>
                   </ul>  
-                </li>
+                </li> -->
       </div>
     </nav>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>HealthCare Spending </h2>
+          <h3>HealthCare Spending by Year </h3>
             <select id="selDataset">
               <option value="Cardiovascular">Cardiovascular</option>
               <option value="Chronic respiratory diseases">Chronic respiratory diseases</option>
@@ -70,12 +70,19 @@
             <div id="plot"></div>
           
         </div>
+
+
     
         <div class="col-md-6">
           <h3>Mean Public and Private Spending</h3>
           
           
             <div id="plot1"></div>
+            
+            
+          
+          
+          
         </div>
       </div>
     </div>
@@ -83,7 +90,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
     <!-- <script src="data/data.json"></script>  -->
     <script src="homepage/homepageplots1.js"></script>
-    <script src="homepage/homepageplots2.js"></script>
+    <script src="homepage/tom2.js"></script>
+    <!-- <script src="homepage/homepageplots2.js"></script> -->
     
   </body>
 

@@ -21,7 +21,7 @@
   
   var layout = {
     barmode: 'group',
-    title: "Average Spending in 2016 by Gender"
+    title: "Mean Spending in 2016 by Gender"
   };
   
   Plotly.newPlot("plot", data, layout);

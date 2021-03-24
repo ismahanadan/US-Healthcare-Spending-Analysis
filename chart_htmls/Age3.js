@@ -15,8 +15,11 @@ var trace2 = {
 
 var data = [trace1, trace2];
 
-var layout = {barmode: 'group'};
+var layout = {
+  barmode: 'group',
+  title: "Public and Private Spending by Age for Prescription Care"
+};
 
-Plotly.newPlot('Public vs. Private Expenditure by Age Group', data, layout);
+Plotly.newPlot('plot3', data, layout);
 
 //prescription
