@@ -21,7 +21,7 @@
   
   var layout = {
     barmode: 'group',
-    title: "Age"
+    title: "Public and Private Spending by Age for Emergency Care"
   };
   
   Plotly.newPlot("plot", data, layout);

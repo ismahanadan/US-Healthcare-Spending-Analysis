@@ -56,40 +56,41 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
-          <h2>HealthCare Spending Analysis</h2>
-          <a href="chart_htmls/Age2.html">
-            <img src="chart_htmls/Age2.html" 
-              width="720" height="460">
+        <div class="col-md-6">
+          <h2>HealthCare Spending </h2>
+            <select id="selDataset">
+              <option value="Cardiovascular">Cardiovascular</option>
+              <option value="Chronic respiratory diseases">Chronic respiratory diseases</option>
+              <option value="Diabetes, urogenital, blood, and endocrine diseases">Diabetes, urogenital, blood, and endocrine diseases</option>
+              <option value="Musculoskeletal disorders">Musculoskeletal disorders</option>
+              <option value="Injuries">Injuries</option>
+              <option value="Neoplasms">Neoplasms</option>
+              <option value="Well care">Well Care</option>
+            </select>
+            <div id="plot"></div>
           
-          
-          </a>
-          <!--<script src="homepage/homepageplots2.html"></script>Spending based on Condition</a> -->
-        
-        
         </div>
-        <div class="col-md-4">
-          <h3>Type of Care</h3>
-          <a href="Ambulatory.html">Ambulatory</a>
-            <img src="images/graph1.png"
-            width=100" height="70">
-          </a>
-          <a href="Emergency.html">Emergency</a>
-            <img src="images/graph1.png"
-            width=100" height="70">
-          </a>
-          <a href="Inpatient.html">Inpatient</a>
-            <img src="images/graph1.png"
-            width=100" height="70">
-          </a>
-          <a href="Prescription.html">Prescription</a>
-            <img src="images/graph1.png"
-            width=100" height="70">
-          </a>
+
+
+    
+        <div class="col-md-6">
+          <h3>Mean Public and Private Spending</h3>
+          
+          
+            <div id="plot1"></div>
+            
+            
+          
+          
           
         </div>
       </div>
     </div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+    <!-- <script src="data/data.json"></script>  -->
+    <script src="homepage/homepageplots1.js"></script>
+    <script src="homepage/homepageplots2.js"></script>
     
   </body>
 

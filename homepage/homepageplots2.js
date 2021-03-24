@@ -110,8 +110,7 @@ function init() {
     };
 
 
-    var data = {[cardio_trace], [respiratory_trace], [diabetes_trace], [cardio_trace], [injuries_trace], 
-        [musculoskeletal_trace], [neoplasms_trace], [wellcare_trace]}
+    var data = {cardio_trace, respiratory_trace, diabetes_trace, cardio_trace, injuries_trace, musculoskeletal_trace, neoplasms_trace, wellcare_trace}
 
     var layout = {
         title: `Healthcare Costs 1996-2016`,
@@ -381,10 +380,9 @@ function init() {
       Plotly.newPlot(CHART, data, layout);
   
     });
-  }
+}
   
   // Add event listener for submit button
   d3.select("#submit").on("click", handleSubmit);
   
 
-  // check index on that example and see where they put dataset 123

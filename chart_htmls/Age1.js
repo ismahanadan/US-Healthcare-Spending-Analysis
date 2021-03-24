@@ -18,9 +18,12 @@
   
   var data = [trace1, trace2];
   
-  var layout = {barmode: 'group'};
+  var layout = {
+    barmode: 'group',
+    title: "Public and Private Spending by Age for Emergency Care"
+  };
   
-  Plotly.newPlot('Public vs. Private Expenditure by Age Group', data, layout);
+  Plotly.newPlot('plot', data, layout);
 
 
   
