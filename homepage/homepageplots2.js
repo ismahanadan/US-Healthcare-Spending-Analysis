@@ -3,17 +3,10 @@
 
 // Initializes the page with a default plot
 function init() {
-
-    d3.json("Resources/causes_by_year.json").then(function(data) {
-        console.log(data);
-      });
-      
-      // Promise Pending
-      
-    // d3.json("Resources/causes_by_year.json").then(sampleData => {
+    d3.json("Resources/causes_by_year.json").then(sampleData => {
 
         //data, names, dropdown menu
-    //   var data = data;
+      var data = sampleData;
       var type = data.cause_name;
       var year = data.year_id;
       var amount_spent = data.mean_all;
@@ -23,8 +16,8 @@ function init() {
       // Grab values from the response json object to build the plots
     
       
-      var startDate = data.year_id.map(x => x[0]);
-      var endDate = data.year_id.map(x=> x[168]);
+      var startDate = data.year_id.map(x => x[0])
+      var endDate = data.year_id.map(x=> x[168])
       var cardiovascular = data.cause_name.map(x => x=="Cardiovascular");
       var respiratory = data.cause_name.map(x => x=="Chronic respiratory diseases");
       var diabetes = data.cause_name.map(x => x=="Diabetes, urogenital, blood, and endocrine diseases");
@@ -117,7 +110,7 @@ function init() {
     };
 
 
-    var data3 = [cardio_trace];
+    var data = {cardio_trace, respiratory_trace, diabetes_trace, cardio_trace, injuries_trace, musculoskeletal_trace, neoplasms_trace, wellcare_trace}
 
     var layout = {
         title: `Healthcare Costs 1996-2016`,
@@ -131,17 +124,13 @@ function init() {
         }
     };
   
-    var CHART = d3.selectAll("#plot").node();
+    var CHART = d3.selectAll("plot").node();
   
-    Plotly.newPlot(CHART, data3, layout);
+    Plotly.newPlot(CHART, data, layout);
 
-    // })
-    const dataPromise = d3.json("Resources/causes_by_year.json");
-      console.log("Data Promise: ", dataPromise);
-};
   
   // Call updatePlotly() when a change takes place to the DOM
-  d3.selectAll("body").on("change", updatePlotly);
+  d3.selectAll("plot").on("change", updatePlotly);
   
   // This function is called when a dropdown menu item is selected
   function updatePlotly() {
@@ -150,7 +139,9 @@ function init() {
     // Assign the value of the dropdown menu option to a variable
     var dataset = dropdownMenu.node().value;
   
-    var CHART = d3.selectAll("#plot").node();
+    var CHART = d3.selectAll("plot").node()
+    //var CHART = d3.selectAll("#row").node();
+  
   
     
   
@@ -161,20 +152,14 @@ function init() {
       var type = data.cause_name;
       var year = data.year_id;
       var amount_spent = data.mean_all;
-      var dropdownMenu = d3.select("#selDataset");
-  // Assign the value of the dropdown menu option to a variable
-    var dataset = dropdownMenu.node().value;
-
-    var CHART = d3.selectAll("#row").node();
-
       
     //   var dropdownMenu = d3.select('#selDataset');
     
       // Grab values from the response json object to build the plots
     
       
-      var startDate = data.year_id.map(x => x[0]);
-      var endDate = data.year_id.map(x=> x[168]);
+      var startDate = data.year_id.map(x => x[0])
+      var endDate = data.year_id.map(x=> x[168])
       var cardiovascular = data.cause_name.map(x => x=="Cardiovascular");
       var respiratory = data.cause_name.map(x => x=="Chronic respiratory diseases");
       var diabetes = data.cause_name.map(x => x=="Diabetes, urogenital, blood, and endocrine diseases");
@@ -203,7 +188,7 @@ function init() {
                 }
             };
         
-            var data4 = [cardio_trace];
+            var data = [cardio_trace];
         
             var layout = {
                 title: `Cardiovascular Care Costs 1996-2016`,
@@ -231,7 +216,7 @@ function init() {
                 }
             };
         
-            var data4 = [respiratory_trace];
+            var data = [respiratory_trace];
         
             var layout = {
                 title: `Chronic Respiratory Care Costs 1996-2016`,
@@ -259,7 +244,7 @@ function init() {
                 }
             };
         
-            var data4 = [diabetes_trace];
+            var data = [diabetes_trace];
         
             var layout = {
                 title: `Diabetes, Urogenital, Blood, and Endocrine Care Costs 1996-2016`,
@@ -287,7 +272,7 @@ function init() {
                 }
             };
         
-            var data4 = [injuries_trace];
+            var data = [injuries_trace];
         
             var layout = {
                 title: `Injuries Care Costs 1996-2016`,
@@ -315,7 +300,7 @@ function init() {
                 }
             };
         
-            var data4 = [musculoskeletal_trace];
+            var data = [musculoskeletal_trace];
         
             var layout = {
                 title: `Musculoskeletal Care Costs 1996-2016`,
@@ -343,7 +328,7 @@ function init() {
                 }
             };
         
-            var data4 = [neoplasms_trace];
+            var data = [neoplasms_trace];
         
             var layout = {
                 title: `Neoplasm Care Costs 1996-2016`,
@@ -371,7 +356,7 @@ function init() {
                 }
             };
         
-            var data4 = [neoplasms_trace];
+            var data = [neoplasms_trace];
         
             var layout = {
                 title: `Well Care Costs 1996-2016`,
@@ -392,12 +377,12 @@ function init() {
   
       
   
-      Plotly.newPlot(CHART, data4, layout);
+      Plotly.newPlot(CHART, data, layout);
   
     });
-  };
+}
   
   // Add event listener for submit button
-//   d3.select("#submit").on("click", handleSubmit);
+  d3.select("#submit").on("click", handleSubmit);
+  
 
-init();
