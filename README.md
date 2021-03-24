@@ -6,12 +6,12 @@ The goal of this project is to extract, process and create an interactive dashbo
 
 #Questions:
 
-1.	What is the average total spending per year for each condition?
-2.	What is the average total spending per year for the two payers?
+1.	What is the mean spending per year for each condition?
+2.	What is the mean spending per year for public and private payers?
 3.	For each care type:
-a.	What is the total spending on care (ex. Ambulatory) for men and women in 2016?
-b.	What is the total public and private insurance spending on care (ex. Ambulatory) in 2016?
-c.	What is the total spending on care (ex. Ambulatory) for each age group?
+a.	What is the mean spending on care (ex. Ambulatory) for men and women in 2016?
+
+4.	What is the mean spending on care (ex. Ambulatory) for each age group?
 
 
 
