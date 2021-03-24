@@ -6,9 +6,10 @@ function init() {
     //   });
       
       // Promise Pending
-      d3.json("Resources/causes_by_year.json", function(error, data) {
+      d3.json("Resources/causes_by_year.json", function(data) {
         console.log(data); // this is your data
     });
+
       
     // d3.json("Resources/causes_by_year.json").then(sampleData => {
 
