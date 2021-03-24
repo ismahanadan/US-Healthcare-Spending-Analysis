@@ -1,0 +1,843 @@
+[
+
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 1996,
+		"mean_all": 1006.6648098963619
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 1997,
+		"mean_all": 1020.5101941980921
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 1998,
+		"mean_all": 1035.6994941154737
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 1999,
+		"mean_all": 1061.2771746670921
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2000,
+		"mean_all": 1086.4178520341977
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2001,
+		"mean_all": 1138.2313804184482
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2002,
+		"mean_all": 1189.5603332987957
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2003,
+		"mean_all": 1227.5504952572371
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2004,
+		"mean_all": 1247.1011349800324
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2005,
+		"mean_all": 1253.6048839863688
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2006,
+		"mean_all": 1252.0924346823883
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2007,
+		"mean_all": 1249.5752384551777
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2008,
+		"mean_all": 1255.143151713559
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2009,
+		"mean_all": 1295.293183525678
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2010,
+		"mean_all": 1301.080872290579
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2011,
+		"mean_all": 1275.824565052579
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2012,
+		"mean_all": 1266.4512068420536
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2013,
+		"mean_all": 1244.0202478871317
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2014,
+		"mean_all": 1243.3131530247763
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2015,
+		"mean_all": 1284.309138539112
+	},
+	{
+		"cause_name": "Cardiovascular diseases",
+		"year_id": 2016,
+		"mean_all": 1314.0305728520598
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 1996,
+		"mean_all": 351.71603170749995
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 1997,
+		"mean_all": 377.50968759215294
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 1998,
+		"mean_all": 410.8694667928474
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 1999,
+		"mean_all": 447.942910297778
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2000,
+		"mean_all": 482.37411085361094
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2001,
+		"mean_all": 521.935313124653
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2002,
+		"mean_all": 558.6765168742362
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2003,
+		"mean_all": 584.9508342013197
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2004,
+		"mean_all": 599.8572808594447
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2005,
+		"mean_all": 607.6851937581251
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2006,
+		"mean_all": 623.9434204378471
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2007,
+		"mean_all": 614.0869312015279
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2008,
+		"mean_all": 629.2353422418055
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2009,
+		"mean_all": 659.2381525133333
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2010,
+		"mean_all": 677.6712142929168
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2011,
+		"mean_all": 690.4072096449305
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2012,
+		"mean_all": 694.9546099772916
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2013,
+		"mean_all": 692.7514355986109
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2014,
+		"mean_all": 693.7536878444446
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2015,
+		"mean_all": 700.0157185708335
+	},
+	{
+		"cause_name": "Chronic respiratory diseases",
+		"year_id": 2016,
+		"mean_all": 695.9187828409722
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 1996,
+		"mean_all": 606.745028991362
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 1997,
+		"mean_all": 628.236994919145
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 1998,
+		"mean_all": 661.1898157331649
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 1999,
+		"mean_all": 700.6984610190068
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2000,
+		"mean_all": 748.7227948581383
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2001,
+		"mean_all": 819.3966066441975
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2002,
+		"mean_all": 903.160964983467
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2003,
+		"mean_all": 983.665084102039
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2004,
+		"mean_all": 1048.1791981398687
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2005,
+		"mean_all": 1097.595675006447
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2006,
+		"mean_all": 1145.57854402829
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2007,
+		"mean_all": 1157.5526143607901
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2008,
+		"mean_all": 1162.0476407432889
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2009,
+		"mean_all": 1194.8884155273026
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2010,
+		"mean_all": 1215.4673586890133
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2011,
+		"mean_all": 1241.3884736102634
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2012,
+		"mean_all": 1286.5653798857236
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2013,
+		"mean_all": 1335.7237098934868
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2014,
+		"mean_all": 1441.072941541973
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2015,
+		"mean_all": 1596.1474392531588
+	},
+	{
+		"cause_name": "Diabetes, urogenital, blood, and endocrine diseases",
+		"year_id": 2016,
+		"mean_all": 1730.237495871052
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 1996,
+		"mean_all": 622.2198500749076
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 1997,
+		"mean_all": 635.398171191099
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 1998,
+		"mean_all": 661.3285622902567
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 1999,
+		"mean_all": 677.2546518947304
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2000,
+		"mean_all": 694.6864678209805
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2001,
+		"mean_all": 728.5984950461378
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2002,
+		"mean_all": 779.3053529047828
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2003,
+		"mean_all": 832.3111133037366
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2004,
+		"mean_all": 868.173099268803
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2005,
+		"mean_all": 894.231697313178
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2006,
+		"mean_all": 921.3251843123292
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2007,
+		"mean_all": 949.6268783815526
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2008,
+		"mean_all": 982.9980842305919
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2009,
+		"mean_all": 1040.542222720073
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2010,
+		"mean_all": 1081.9598790861317
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2011,
+		"mean_all": 1107.9407010978555
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2012,
+		"mean_all": 1145.297181667427
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2013,
+		"mean_all": 1157.7700229406253
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2014,
+		"mean_all": 1178.3593440089865
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2015,
+		"mean_all": 1210.8400047919865
+	},
+	{
+		"cause_name": "Injuries",
+		"year_id": 2016,
+		"mean_all": 1239.6373416983017
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 1996,
+		"mean_all": 515.0124438484148
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 1997,
+		"mean_all": 538.043429562724
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 1998,
+		"mean_all": 565.5791716575001
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 1999,
+		"mean_all": 597.9882830994541
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2000,
+		"mean_all": 628.7693165381316
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2001,
+		"mean_all": 665.7124631056845
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2002,
+		"mean_all": 702.7655517651183
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2003,
+		"mean_all": 736.0662928133556
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2004,
+		"mean_all": 761.5810951802961
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2005,
+		"mean_all": 775.7690989982958
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2006,
+		"mean_all": 791.9263111040331
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2007,
+		"mean_all": 796.7543213251911
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2008,
+		"mean_all": 810.0731081501909
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2009,
+		"mean_all": 839.3942629036382
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2010,
+		"mean_all": 864.3398972914995
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2011,
+		"mean_all": 898.1065294341645
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2012,
+		"mean_all": 916.0037139687828
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2013,
+		"mean_all": 948.1029699836319
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2014,
+		"mean_all": 991.4357072301715
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2015,
+		"mean_all": 1020.9418978494149
+	},
+	{
+		"cause_name": "Mental and behavioral disorders",
+		"year_id": 2016,
+		"mean_all": 1037.739027762816
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 1996,
+		"mean_all": 565.7873987967699
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 1997,
+		"mean_all": 591.3606298421578
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 1998,
+		"mean_all": 633.0837469913095
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 1999,
+		"mean_all": 678.3411447214606
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2000,
+		"mean_all": 736.1034733446445
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2001,
+		"mean_all": 815.2272610501377
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2002,
+		"mean_all": 905.8229121994473
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2003,
+		"mean_all": 994.4253252990261
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2004,
+		"mean_all": 1066.7150190559207
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2005,
+		"mean_all": 1124.9813589350324
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2006,
+		"mean_all": 1182.9648393006712
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2007,
+		"mean_all": 1274.123282062592
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2008,
+		"mean_all": 1333.247433844783
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2009,
+		"mean_all": 1417.6406534995265
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2010,
+		"mean_all": 1488.7287149385986
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2011,
+		"mean_all": 1558.260197497395
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2012,
+		"mean_all": 1649.888545726256
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2013,
+		"mean_all": 1724.6701127967367
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2014,
+		"mean_all": 1834.7368085910987
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2015,
+		"mean_all": 1999.4509837801459
+	},
+	{
+		"cause_name": "Musculoskeletal disorders",
+		"year_id": 2016,
+		"mean_all": 2154.8961231649937
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 1996,
+		"mean_all": 383.11207218430246
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 1997,
+		"mean_all": 387.4177130281515
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 1998,
+		"mean_all": 399.5482825261184
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 1999,
+		"mean_all": 411.58069134427643
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2000,
+		"mean_all": 424.81591935116444
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2001,
+		"mean_all": 444.7049979765789
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2002,
+		"mean_all": 465.66374910740115
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2003,
+		"mean_all": 484.27339395784236
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2004,
+		"mean_all": 500.834524631921
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2005,
+		"mean_all": 520.0894333112302
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2006,
+		"mean_all": 546.2393932779345
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2007,
+		"mean_all": 613.0879669138616
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2008,
+		"mean_all": 646.1370973484014
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2009,
+		"mean_all": 685.2075757605656
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2010,
+		"mean_all": 693.0692275253223
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2011,
+		"mean_all": 684.5374916473355
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2012,
+		"mean_all": 680.377246031467
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2013,
+		"mean_all": 669.9611677688553
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2014,
+		"mean_all": 676.4886222431513
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2015,
+		"mean_all": 706.6460151375984
+	},
+	{
+		"cause_name": "Neoplasms",
+		"year_id": 2016,
+		"mean_all": 718.194492206079
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 1996,
+		"mean_all": 305.19699574946725
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 1997,
+		"mean_all": 322.8562278877895
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 1998,
+		"mean_all": 345.707249214559
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 1999,
+		"mean_all": 364.93736425401966
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2000,
+		"mean_all": 381.71181509549996
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2001,
+		"mean_all": 396.3276734448289
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2002,
+		"mean_all": 412.6991766423554
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2003,
+		"mean_all": 430.2708330460198
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2004,
+		"mean_all": 444.09822345925653
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2005,
+		"mean_all": 457.0218244047432
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2006,
+		"mean_all": 471.82022299935517
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2007,
+		"mean_all": 482.0234456392699
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2008,
+		"mean_all": 484.5892388547302
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2009,
+		"mean_all": 498.2061579826187
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2010,
+		"mean_all": 506.7660652241646
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2011,
+		"mean_all": 522.2501538315789
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2012,
+		"mean_all": 549.9538567730066
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2013,
+		"mean_all": 567.080678394625
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2014,
+		"mean_all": 583.7181174714475
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2015,
+		"mean_all": 607.6767939839608
+	},
+	{
+		"cause_name": "Well care",
+		"year_id": 2016,
+		"mean_all": 625.8400441388812
+	}
+]
